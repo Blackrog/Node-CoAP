@@ -1,0 +1,28 @@
+{
+  "name": "node-coap",
+  "version": "1.0.0",
+  "description": "TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project.",
+  "main": "/main/server.js",
+  "directories": {
+    "main": "main"
+  },
+  "dependencies": {
+    "coap": "^0.23.1",
+    "coap-cli": "^0.7.0",
+    "nedb": "^1.8.0",
+    "prompt": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Marcus",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Blackrog/Node-CoAP.git"
+  },
+  "keywords": [
+    "coap"
+  ]
+}
