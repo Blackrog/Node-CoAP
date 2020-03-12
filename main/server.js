@@ -3,7 +3,7 @@ const server  = coap.createServer({})
 const Datastore = require('nedb')
 const db = new Datastore({ filename: './database', autoload: true });
 
-const port = 5683;
+const port = 5003;
 const host = 'localhost'; //Put amazon Public-DNS here
 
 //Executes function when the server gets a request

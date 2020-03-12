@@ -50,6 +50,7 @@ prompt.get(['temp', 'method'], (err, prompt) => {
   
   //Request send payload  
   console.log('Payload sent! +', data);
+  console.log('Sent to: ' + req.port + req.host);
   req.end(data)//data = buffer payload
   
   
