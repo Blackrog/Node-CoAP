@@ -80,7 +80,7 @@ server.on('request', function(req, res) {
 
 //The server stats listening on this port
 server.listen(port,host, () => {
-  console.log('server started');
+  console.log('server started on port and address:' + port + host);
 })
 
 
