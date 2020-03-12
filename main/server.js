@@ -4,7 +4,7 @@ const Datastore = require('nedb')
 const db = new Datastore({ filename: './database', autoload: true });
 
 const port = 5683;
-const host = 'localhost'; //Put amazon Public-DNS here
+const host = 'zyax.se'; //Put amazon Public-DNS here
 
 //Executes function when the server gets a request
 server.on('request', function(req, res) {
