@@ -11,8 +11,8 @@ prompt.start();
 console.log('Enter a temperature value: ');
 prompt.get(['temp', 'method'], (err, prompt) => {
   const req   = coap.request({
-    host: "172.31.12.188", //To which server the client wants to connect to //Put localhost on both server and client to test locally
-    port: 5683,                                                                                                 //Put aws Public-DNS to connect to aws ec2 instance
+    host: "34.254.66.255", //To which server the client wants to connect to //Put localhost on both server and client to test locally
+    port: 5003,                                                                                                 //Put aws Public-DNS to connect to aws ec2 instance
     method: prompt.method, // 1, GET // 2, POST // 3, PUT // 4, DELETE // Get's value from the prompt
     pathname: "/",
     confirmable: true, //if confirmable is false tokens dosent need to match(optional), if true tokens has to match.
